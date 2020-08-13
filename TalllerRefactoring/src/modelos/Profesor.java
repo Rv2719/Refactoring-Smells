@@ -1,5 +1,5 @@
 package modelos;
-
+import modelos.Persona;
 import java.util.ArrayList;
 
 public class Profesor extends Persona{

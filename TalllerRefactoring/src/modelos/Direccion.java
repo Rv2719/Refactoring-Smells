@@ -1,12 +1,11 @@
-
+package  modelos;
 public class Direccion{
     private String callePrincipal;
     private String calleSecundaria;
     private String codigoPostal;
 
-    public Direccion(String callePrincipal, String calleSecundaria) {
+    public Direccion(String callePrincipal) {
         this.callePrincipal = callePrincipal;
-        this.calleSecundaria = calleSecundaria;
     }
 
     public String getCallePrincipal() {

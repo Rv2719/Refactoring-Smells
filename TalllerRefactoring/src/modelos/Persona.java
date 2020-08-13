@@ -1,3 +1,9 @@
+package  modelos;
+import modelos.Paralelo;
+import modelos.Telefono;
+
+import java.util.List;
+
 public class Persona {
     protected String nombre;
     protected String apellido;

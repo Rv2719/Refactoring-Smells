@@ -1,14 +1,14 @@
 package modelos;
 
+
+
 public class Telefono {
     private String number;
     private String operadora;
     private Persona propetario;
 
-    public Telefono(String number, String operadora, Persona propetario) {
+    public Telefono(String number) {
         this.number = number;
-        this.operadora = operadora;
-        this.propetario = propetario;
     }
 
     public String getNumber() {
