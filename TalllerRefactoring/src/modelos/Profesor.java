@@ -25,11 +25,7 @@ public class Profesor {
         paralelos= new ArrayList<>();
     }
     
-    public double calcularSueldo(Profesor prof){
-        double sueldo=0;
-        sueldo= añosdeTrabajo*600 + BonoFijo;
-        return sueldo;
-    } 
+
     
     
     public void anadirParalelos(Paralelo p){
