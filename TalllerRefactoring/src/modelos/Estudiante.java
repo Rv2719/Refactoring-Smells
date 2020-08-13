@@ -7,7 +7,6 @@ public class Estudiante extends Persona{
     public String matricula;
   
     public String facultad;
-    public ArrayList<Paralelo> paralelos;
     
     
     //Getter y setter de Matricula
