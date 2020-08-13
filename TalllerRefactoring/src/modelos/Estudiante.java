@@ -71,6 +71,10 @@ public class Estudiante extends Persona{
         return notaTotal;
         
     }
+
+    public String getNombre() {
+        return super.getNombre();
+    }
 }
         
     
