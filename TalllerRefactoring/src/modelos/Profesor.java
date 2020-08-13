@@ -7,8 +7,8 @@ public class Profesor {
     public String nombre;
     public String apellido;
     public int edad;
-    public String direccion;
-    public String telefono;
+    public Direccion direccion;
+    public Telefono  telefono;
     public ArrayList<Paralelo> paralelos;
     
     public int añosdeTrabajo;

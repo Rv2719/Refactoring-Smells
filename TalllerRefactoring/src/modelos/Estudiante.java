@@ -9,8 +9,8 @@ public class Estudiante{
     public String apellido;
     public String facultad;
     public int edad;
-    public String direccion;
-    public String telefono;
+    public Direccion direccion;
+    public Telefono telefono;
     public ArrayList<Paralelo> paralelos;
     
     //Getter y setter de Matricula
